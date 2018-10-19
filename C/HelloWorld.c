@@ -1,5 +1,5 @@
 #include <stdio.h>
-main() {
+int main() {
   long long P = 1,
             E = 2,
             T = 5,
@@ -10,4 +10,5 @@ main() {
             G = 1479296389,
             x[] = { G * R * E * E * T , P * L * A * N * E * T };
   puts((char*)x);
+  return 0;
 }
